@@ -1,0 +1,75 @@
+/* NavBar */
+
+.navbar {
+  background-color: var(--bs-yellow);
+  box-shadow: 2px 2px 10px 5px var(--bs-black);
+}
+
+li a:hover {
+  background: var(--bs-green);
+}
+
+.navbar-brand {
+  color: var(--bs-green);
+}
+
+#flag {
+  margin-right: 15px;
+}
+
+#link.active {
+  background-color: var(--bs-green);
+}
+
+#link:hover {
+  background-color: var(--bs-red);
+}
+
+#link {
+  color: var(--bs-white);
+  text-transform: uppercase;
+}
+
+
+/* About */
+
+h1 {
+  text-align: center;
+  padding: 0;
+  margin: auto;
+}
+
+hr {
+  width: auto;
+  color: #999;
+}
+ 
+
+.dh-header-non-rectangular-container h1, p {
+  color: white;
+  font-weight: bold;
+}
+
+.clearmargin {
+  margin: 0px;
+}
+
+.clearpadding {
+  padding: 0px;
+}
+
+.row-image-txt {
+  background-color: rgb(42,42,42);
+}
+
+.row-image-txt h1 {
+  color: white;
+}
+
+.row-image-txt p {
+  color: white;
+}
+
+
+
+
