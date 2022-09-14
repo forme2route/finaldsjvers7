@@ -6,424 +6,516 @@
 // Question and choices (image question)
  
  var quiz = [
+  
   {
    
-    "image": "assets/img/1-1.png",
+    "image": "assets/img/signs/1.png",
     "choices":[
    
-      "Do not pass",
-      "Keep left",
+      "Road changes",
+      "Two way traffic begins",
+      "Either side",
+      "Detour"
+      
+    ],
+    "correct": "Either side",
+
+  }, 
+
+  {
+   
+    "image": "assets/img/signs/2.png",
+    "choices":[
+   
+      "U turn ahead",
+      "Roundabout ahead",
+      "Corners ahead",
+      "Road narrows"
+      
+    ],
+    "correct": "Roundabout ahead",
+
+  }, 
+
+  {
+   
+    "image": "assets/img/signs/3.png",
+    "choices":[
+   
+      "Road ends ahead",
+      "No entry",
+      "Turn to the right or to the left",
+      "Intersection ahead"
+      
+    ],
+    "correct": "Turn to the right or to the left",
+
+  }, 
+
+ 
+  {
+   
+    "image": "assets/img/signs/4.png",
+    "choices":[
+   
+      "Detour ahead",
+      "To the left",
+      "One way begins",
+      "No entry"
+      
+    ],
+    "correct": "To the left",
+
+  }, 
+
+  {
+   
+    "image": "assets/img/signs/5.png",
+    "choices":[
+   
+      "One way begins",
+      "Detour ahead",
+      "To the right",
+      "No entry"
+      
+    ],
+    "correct": "To the right",
+
+  }, 
+
+  {
+   
+    "image": "assets/img/signs/6.png",
+    "choices":[
+   
+      "No U turn",
+      "One Way",
+      "Straight on",
+      "Road narrows"
+      
+    ],
+    "correct": "Straight on",
+
+  }, 
+
+  {
+   
+    "image": "assets/img/signs/7.png",
+    "choices":[
+   
+      "Road bends to the left ends",
+      "Stop",
+      "No left turn( Do not turn to the left at intersection)",
+      "Hidden corner ahead"
+      
+    ],
+    "correct": "No left turn( Do not turn to the left at intersection)",
+
+  }, 
+
+  {
+   
+    "image": "assets/img/signs/8.png",
+    "choices":[
+   
+      "Stop",
+      "Hidden corner ahead",
+      "Road bends to the right",
+      "No right turn(Do not turn right at the intersection)"
+      
+    ],
+    "correct": "No right turn(Do not turn right at the intersection)",
+
+  }, 
+
+  {
+   
+    "image": "assets/img/signs/9.png",
+    "choices":[
+   
+      "Wrong way",
+      "Danger ahead",
+      "No U turn",
+      "No right turn"
+      
+    ],
+    "correct": "No U turn",
+
+  }, 
+
+  {
+   
+    "image": "assets/img/signs/10.png",
+    "choices":[
+   
+      "One way traffic only",
+      "No entry for cars",
+      "Overtaking prohibited",
+      "Two way traffic ends"
+      
+    ],
+    "correct": "Overtaking prohibited",
+
+  }, 
+
+  {
+   
+    "image": "assets/img/signs/11.png",
+    "choices":[
+   
+      "Railway crossing",
+      "Crossroad ahead",
+      "No stopping",
+      "Pedestrian crossing ahead"
+      
+    ],
+    "correct": "No stopping",
+
+  }, 
+
+  {
+   
+    "image": "assets/img/signs/12.png",
+    "choices":[
+   
+      "No racing",
+      "No overtaking zone",
+      "No entry for power driven vehicles",
+      "No passing for cars and motor cycles"
+      
+    ],
+    "correct": "No entry for power driven vehicles",
+
+  }, 
+
+  {
+   
+    "image": "assets/img/signs/13.png",
+    "choices":[
+   
+      "Road slippery when wet",
+      "Winding road ahead",
+      "Triple bend",
+      "Road narrows ahead"
+      
+    ],
+    "correct": "Winding road ahead",
+
+  }, 
+
+  {
+   
+    "image": "assets/img/signs/14.png",
+    "choices":[
+   
+      "Two way traffic ahead",
+      "Pass either side",
+      "Steep hill",
+      "No overtaking"
+      
+    ],
+    "correct": "Two way traffic ahead",
+
+  }, 
+
+  {
+   
+    "image": "assets/img/signs/15.png",
+    "choices":[
+   
+      "Winding road",
+      "Dangerous double bend",
+      "Road is slippery when wet",
+      "Hump ahead"
+      
+    ],
+    "correct": "Dangerous double bend",
+
+  }, 
+
+  {
+   
+    "image": "assets/img/signs/16.png",
+    "choices":[
+   
+      "Hospital",
+      "Railway crossing",
+      "Pedestrian crossing ahead",
+      "Intersection ahead"
+      
+    ],
+    "correct": "Intersection ahead",
+
+  }, 
+
+  {
+   
+    "image": "assets/img/signs/17.png",
+    "choices":[
+   
+      "Narrow bridge",
+      "Carriageway narrows from both sides",
+      "One way begins",
+      "Two way traffic ends"
+      
+    ],
+    "correct": "Carriageway narrows from both sides",
+
+  }, 
+
+  {
+   
+    "image": "assets/img/signs/18.png",
+    "choices":[
+   
+      "Narrow bridge",
+      "One way traffic",
+      "No overtaking",
+      "Road narrows ahead"
+      
+    ],
+    "correct": "Narrow bridge",
+
+  }, 
+
+  {
+   
+    "image": "assets/img/signs/19.png",
+    "choices":[
+   
+      "Winding road ahead",
+      "Sharp bends on roadway",
+      "Slippery road ahead",
+      "No entry for cars"
+      
+    ],
+    "correct": "Slippery road ahead",
+
+  }, 
+
+  {
+   
+    "image": "assets/img/signs/20.png",
+    "choices":[
+   
+      "School zone",
+      "Pedestrian crossing",
+      "Railway crossing",
+      "Children at play"
+      
+    ],
+    "correct": "Pedestrian crossing",
+
+  }, 
+
+  {
+   
+    "image":  "assets/img/signs/21.png",
+    "choices":[
+   
+      "Pass on the left or the right",
+      "Road work ahead",
+      "Narrow bridge ahead",
+      "Dual carriageway ahead"
+      
+    ],
+    "correct": "Dual carriageway ahead",
+
+  }, 
+
+  {
+   
+    "image":  "assets/img/signs/22.png",
+    "choices":[
+   
+      "Road work ahead",
+      "Children at play",
+      "Detour on route",
+      "Road closed"
+      
+    ],
+    "correct": "",
+
+  }, 
+  {
+   
+    "image":  "assets/img/signs/23.png",
+    "choices":[
+   
+      "Railway crossing ahead",
+      "No overtaking zone",
+      "Traffic signal ahead, slow down",
+      "No entry"
+      
+    ],
+    "correct": "Traffic signal ahead, slow down",
+
+  }, 
+
+  {
+   
+    "image":  "assets/img/signs/24.png",
+    "choices":[
+   
+      "Pass either side",
       "Do not enter this road",
-      "Keep right"
+      "Keep left",
+      "School zone ahead"
+      
     ],
     "correct": "Do not enter this road",
 
   }, 
 
   {
-  
-   "image": "assets/img/2-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
+   
+    "image":  "assets/img/signs/25.png",
+    "choices":[
+   
+      "Roundabout ahead",
+      "U turn lanes",
+      "Enter slowly",
+      "Closed to all vehicles in both directions"
+      
+    ],
+    "correct": "Closed to all vehicles in both directions",
 
- }, 
+  }, 
 
- {
-  
-   "image": "assets/img/3-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
+  {
+   
+    "image":  "assets/img/signs/26.png",
+    "choices":[
+   
+      "Merge to the center of the road",
+      "Detour ahead",
+      "Give way",
+      "One way begins soon"
+      
+    ],
+    "correct":  "Give way",
 
- }, 
+  }, 
 
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
+  {
+   
+    "image":  "assets/img/signs/27.png",
+    "choices":[
+   
+      "Slow down to the left",
+      "Left side",
+      "Steep descent",
+      "Slippery road"
+      
+    ],
+    "correct": "Left side",
 
- }, 
+  }, 
 
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
+  {
+   
+    "image":  "assets/img/signs/28.png",
+    "choices":[
+   
+      "Road curves to the right",
+      "Turn to the right",
+      "Dangerous right bend ahead",
+      "Hidden corner ahead"
+      
+    ],
+    "correct": "Turn to the right",
 
- }, 
+  }, 
 
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
+  {
+   
+    "image":  "assets/img/signs/29.png",
+    "choices":[
+   
+      "Pass either side",
+      "Straight on or turn to the left",
+      "Sharp bend to the left",
+      "Yield to the left"
+      
+    ],
+    "correct": "Straight on or turn to the left",
 
- }, 
+  }, 
 
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
+  {
+   
+    "image":  "assets/img/signs/30.png",
+    "choices":[
+   
+      "Slow down to the right",
+      "Right side",
+      "Steep descent",
+      "Slippery road"
+      
+    ],
+    "correct": "Right side",
 
- }, 
+  }, 
 
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
+  {
+   
+    "image":  "assets/img/signs/31.png",
+    "choices":[
+   
+      "Road curves to the left",
+      "Turn to the left",
+      "Dangerous left bend ahead",
+      "Hidden corner ahead"
+      
+    ],
+    "correct": "Turn to the left",
 
- }, 
+  }, 
 
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
+  {
+   
+    "image":  "assets/img/signs/32.png",
+    "choices":[
+   
+      "Pass either side",
+      "Straight on or turn to the right",
+      "Sharp bend to the right",
+      "Yield to the right"
+      
+    ],
+    "correct": "Straight on or turn to the right",
 
- }, 
+  }, 
 
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
+  {
+   
+    "image":  "assets/img/signs/33.png",
+    "choices":[
+   
+      "Two way traffic ends",
+      "End of prohibition of overtaking",
+      "No entry for cars",
+      "One way traffic begins"
+      
+    ],
+    "correct": "End of prohibition of overtaking",
 
- }, 
+  }, 
+  {
+   
+    "image":  "assets/img/signs/34.png",
+    "choices":[
+   
+      "No pedestrians",
+      "No passengers allowed",
+      "No parking",
+      "No passing"
+      
+    ],
+    "correct": "No parking",
 
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
+  }, 
 
- }, 
-
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
-
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
-
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
-
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
-
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
-
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
-
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
-
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
-
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
-
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
-
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
-
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
-
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
-
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
-
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
-
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
-
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
-
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
- {
-  
-   "image": "assets/img/1-1.png",
-   "choices":[
-  
-     "Do not pass",
-     "Keep left",
-     "Do not enter this road",
-     "Keep right"
-   ],
-   "correct": "Do not enter this road",
-
- }, 
  
  ];
  

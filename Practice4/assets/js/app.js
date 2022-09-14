@@ -6,344 +6,317 @@
 // Question and choices (image question)
  
  var quiz = [
+ 
   {
-    "question": "A broken white line at the right of your lane means",
-       "choices":[
-    
-       "You may pass if the way is clear",
-       "Pass anytime",
-       "Never pass",
-       "Pass only during the daytime"
-     ],
-     "correct": "You may pass if the way is clear",
-
-   }, 
-
-   {
-    "question": "What is the penalty if I use any electronic device while driving eg. cellphone ,tablet or I pad",
-   
+    "question": "If the signal light changes from green to amber as you approach an intersection. What should you do?",
     "choices":[
    
-    "Fine of $1000",
-    "Suspension of drivers licence",
-    "Fine of $10,000",
-    "Fine of $100,000",
+      "Accelerate through as fast as you can",
+      "Stop. If a stop cannot be made safely , proceed with caution.",
+      "Honk your horn and speed up",
+      "Yield the right of way"
     ],
-    "correct": "Fine of $10,000",
-
-  }, 
-
-  {
-    "question": "In Jamaica, while driving,you must wear a seatbelt",
-    
-    "choices":[
-   
-      "When approaching law enforcement",
-      "At all times",
-      "For the driving test only",
-      "For long trips only"
-    ],
-    "correct": "At all times",
-
-  }, 
-
-  {
-   
-    "question": "Objects that you cannot see in your rear view mirror and side mirrors are said to be in your .....?",
-    "choices":[
-   
-      "Tight spot",
-      "Blind spot",
-      "Safe area",
-      "Shadow area"
-    ],
-    "correct": "Blind spot",
-
-  }, 
-
-  {
-    "question": "?",
-    "choices":[
-   
-      "",
-      "",
-      "",
-      ""
-    ],
-    "correct": "",
+    "correct": "Stop. If a stop cannot be made safely , proceed with caution.",
   
   }, 
 
   {
-    "question": "?",
+    "question": "When a driver is approaching an intersection that is blocked with traffic, what should the driver do?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "Pass on the left or right",
+      "Honk your horn and argue with other drivers",
+      "Stop and wait until the traffic ahead moves on (or clears) before entering the intersection.",
+      "Get out of you vehicle and direct traffic"
     ],
-    "correct": "",
+    "correct": "Stop and wait until the traffic ahead moves on (or clears) before entering the intersection.",
   
   }, 
 
   {
-    "question": "?",
+    "question": "What is a flashing yellow beacon above an intersection?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "Pedestrian crossing ahead",
+      "Warns drivers to proceed with caution.",
+      "The light is changing to red soon",
+      "The light is malfunctioning"
     ],
-    "correct": "",
+    "correct": "Warns drivers to proceed with caution.",
+  
+  }, 
+
+
+  {
+    "question": "What does a traffic signal with a red light and a green arrow indicates?",
+    "choices":[
+   
+      "You must stop",
+      "The light will change to red soon",
+      "The traffic light is malfunctioning",
+      "Motorists can proceed with caution in the direction of the arrow."
+    ],
+    "correct": "Motorists can proceed with caution in the direction of the arrow.",
   
   }, 
 
   {
-    "question": "?",
+    "question": "Which vehicle has the Right Of Way on a hill?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "The vehicle that entered the hill first",
+      "The vehicle coming down but the heavier/larger vehicle has the Right Of Way up or down.",
+      "The vehicle going uphill.",
+      "The more expensive vehicle."
     ],
-    "correct": "",
+    "correct": "The vehicle coming down but the heavier/larger vehicle has the Right Of Way up or down.",
   
   }, 
 
   {
-    "question": "?",
+    "question": "Who can be charged / ticketed with the violation if a 16 year old front seat passenger is not wearing a seat belt?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "The 16 year old passenger.",
+      "The parent",
+      "The motor vehicle owner",
+      "The driver"
     ],
-    "correct": "",
+    "correct": "The 16 year old passenger.",
   
   }, 
 
   {
-    "question": "?",
+    "question": "What does a stationery amber light mean ?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "Proceed with caution",
+      "Honk your horn and pass slowly",
+      "Slow down and pass",
+      "Stop"
     ],
-    "correct": "",
+    "correct": "Stop",
   
   }, 
 
   {
-    "question": "?",
+    "question": "What does a flashing red light means?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "Slow down and pass",
+      "Honk your horn and pass slowly",
+      "Stop",
+      "Proceed with caution"
     ],
-    "correct": "",
+    "correct": "Stop",
   
   }, 
 
   {
-    "question": "?",
+    "question": "What does a broken white line in the centre of the road mean?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "No passing",
+      "You may overtake safely if the way ahead is clear.",
+      "Two way traffic begins",
+      "Overtake at any time"
     ],
-    "correct": "",
+    "correct": "You may overtake safely if the way ahead is clear.",
   
   }, 
 
   {
-    "question": "?",
+    "question": "What does a white arrow painted on a lane means?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "Lane is reserved for emergency vehicle",
+      "You may move only in the direction of the arrow",
+      "Priority lane",
+      "Intersection ahead"
     ],
-    "correct": "",
+    "correct": "You may move only in the direction of the arrow",
   
   }, 
 
   {
-    "question": "?",
+    "question": "When approaching an intersection which has no stop line crosswalk or side walk. Where must drivers stop?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "At the center of the road",
+      "Nearest to the right of the lane",
+      "At the edge of the intersection.",
+      "Where the road ends"
     ],
-    "correct": "",
+    "correct": "At the edge of the intersection.",
   
   }, 
 
   {
-    "question": "?",
+    "question": "Unless turning right or passing another vehicle, how should drivers position their vehicle on the road?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "In the center of the road to avoid potholes",
+      "Drive on both sides to avoid traffic ahead",
+      "Anywhere there is no oncoming traffic",
+      "Keep to the left of the road or in the left hand lane on multi lane roads."
     ],
-    "correct": "",
+    "correct": "Keep to the left of the road or in the left hand lane on multi lane roads.",
   
   }, 
 
   {
-    "question": "?",
+    "question": "In good weather conditions, drivers are required to keep a safe distance behind the vehicle in front. What is a safe distance a driver should keep?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "Two to three second distance behind the other vehicle,",
+      "About 2-3 vehicles length apart",
+      "A minimum of 6 second following distance",
+      "Three feet behind the other vehicle"
     ],
-    "correct": "",
+    "correct": "Two to three second distance behind the other vehicle,",
   
   }, 
 
   {
-    "question": "?",
+    "question": "When descending a hill, what is a good, safe driving practice?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "Shift to neutral gear and brake slowly",
+      "Release the hand brake slowly ready to use",
+      "Gear down, using the motor to assist in braking.",
+      "Turn on your hazard lights and maintain your speed"
     ],
-    "correct": "",
+    "correct": "Gear down, using the motor to assist in braking.",
   
   }, 
 
   {
-    "question": "?",
+    "question": "What documents the police may require drivers to produce?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "Valid drivers licence",
+      "Insurance certificate",
+      "Ownership papers for the vehicle being driven.",
+      "All of the above"
     ],
-    "correct": "",
+    "correct": "All of the above",
   
   }, 
 
   {
-    "question": "?",
+    "question": "If your vehicle become disabled (have a breakdown ) on a highway. What should you do?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "Park your car, get out and walk to get help nearby",
+      "Pull over, turn on the emergency flashers and wait for help",
+      "Honk your horn for help",
+      "Get out and wave to passing motorists for help"
     ],
-    "correct": "",
+    "correct": "Pull over, turn on the emergency flashers and wait for help",
   
   }, 
 
   {
-    "question": "?",
+    "question": "Where and when should you dip your lights?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "When you see your friends approaching",
+      "Dip your lights in brightly lit areas, in built up areas, when facing on coming traffic and when approaching a corner /bend.",
+      "To inform other motorist that law enforcement is around.",
+      "When you approach a crowd."
     ],
-    "correct": "",
+    "correct": "Dip your lights in brightly lit areas, in built up areas, when facing on coming traffic and when approaching a corner /bend.",
   
   }, 
 
   {
-    "question": "?",
+    "question": "When two vehicles of a similar size meet on a hill, which one has the Right Of Way?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "The vehicle that is going faster.",
+      "The vehicle going uphill.",
+      "The vehicle going downhill.",
+      "The vehicle that entered the hill first."
     ],
-    "correct": "",
+    "correct": "The vehicle going downhill.",
   
   }, 
 
   {
-    "question": "?",
+    "question": "A flashing green light at an intersection where right and left turns are permitted indicates that drivers may------?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "Turn right or left or go straight ahead if the way is clear.",
+      "Wait until the light stop flashing",
+      "Stop and proceed with caution",
+      "The light is broken"
     ],
-    "correct": "",
+    "correct": "Turn right or left or go straight ahead if the way is clear.",
   
   }, 
 
   {
-    "question": "?",
+    "question": "What are the main causes of skidding?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "Faulty driving.",
+      "Uneven tyre pressure and smooth tyres,",
+      "Slippery road surfaces and improper braking.",
+      "All of the above"
     ],
-    "correct": "",
+    "correct": "All of the above",
   
   }, 
 
   {
-    "question": "?",
+    "question": "When involved in a reportable accident, what should you do?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "Take photographs and measurement for future use.",
+      "Report the accident to the nearest police within 24 hours.",
+      "Call and tell your family",
+      "Visit the police station 5 days after to produce your licence."
     ],
-    "correct": "",
+    "correct": "Report the accident to the nearest police within 24 hours.",
   
   }, 
 
   {
-    "question": "?",
+    "question": "What are the circumstances under which drivers could lose their drivers license?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "Failure to pay traffic fines ordered by a court,",
+      "dangerous driving , careless driving, reckless driving",
+      "failing a breath test, speeding and demerit points",
+      "all of the above"
     ],
-    "correct": "",
+    "correct": "all of the above",
   
   }, 
 
   {
-    "question": "?",
+    "question": "If your rear wheel skid while driving. What should you do?",
     "choices":[
    
-      "",
-      "",
-      "",
-      ""
+      "Slam on your brakes",
+      "Steer in the direction of the skid.",
+      "Accelerate out of the skid.",
+      "Hold the steering wheel tightly in one place."
     ],
-    "correct": "",
+    "correct": "Steer in the direction of the skid.",
+  
+  }, 
+
+  {
+    "question": "In what position of the road should your vehicle be before making a left turn?",
+    "choices":[
+   
+      "In the center of the roadway",
+      "In the lane nearest to the curb.",
+      "In the right lane",
+      "Facing on coming traffic"
+    ],
+    "correct": "In the lane nearest to the curb.",
   
   }, 
 
