@@ -110,7 +110,6 @@
       
     ],
     "correct": "No left turn (Do not turn to the left at intersection)",
-
   }, 
 
   {
