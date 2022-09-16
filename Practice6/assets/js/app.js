@@ -9,7 +9,7 @@
   
   {
    
-    "image": "assets/img/signs/1.png",
+    "image": "assets/img/signs/1.svg",
     "choices":[
    
       "Road changes",
@@ -24,7 +24,7 @@
 
   {
    
-    "image": "assets/img/signs/2.png",
+    "image": "assets/img/signs/2.svg",
     "choices":[
    
       "U turn ahead",
@@ -39,7 +39,7 @@
 
   {
    
-    "image": "assets/img/signs/3.png",
+    "image": "assets/img/signs/3.svg",
     "choices":[
    
       "Road ends ahead",
@@ -55,7 +55,7 @@
  
   {
    
-    "image": "assets/img/signs/4.png",
+    "image": "assets/img/signs/4.svg",
     "choices":[
    
       "Detour ahead",
@@ -70,7 +70,7 @@
 
   {
    
-    "image": "assets/img/signs/5.png",
+    "image": "assets/img/signs/5.svg",
     "choices":[
    
       "One way begins",
@@ -85,7 +85,7 @@
 
   {
    
-    "image": "assets/img/signs/6.png",
+    "image": "assets/img/signs/6.svg",
     "choices":[
    
       "No U turn",
@@ -100,7 +100,7 @@
 
   {
    
-    "image": "assets/img/signs/7.png",
+    "image": "assets/img/signs/7.svg",
     "choices":[
    
       "Road bends to the left ends",
@@ -115,7 +115,7 @@
 
   {
    
-    "image": "assets/img/signs/8.png",
+    "image": "assets/img/signs/8.svg",
     "choices":[
    
       "Stop",
@@ -130,7 +130,7 @@
 
   {
    
-    "image": "assets/img/signs/9.png",
+    "image": "assets/img/signs/9.svg",
     "choices":[
    
       "Wrong way",
@@ -145,7 +145,7 @@
 
   {
    
-    "image": "assets/img/signs/10.png",
+    "image": "assets/img/signs/10.svg",
     "choices":[
    
       "One way traffic only",
@@ -160,7 +160,7 @@
 
   {
    
-    "image": "assets/img/signs/11.png",
+    "image": "assets/img/signs/11.svg",
     "choices":[
    
       "Railway crossing",
@@ -175,7 +175,7 @@
 
   {
    
-    "image": "assets/img/signs/12.png",
+    "image": "assets/img/signs/12.svg",
     "choices":[
    
       "No racing",
@@ -190,7 +190,7 @@
 
   {
    
-    "image": "assets/img/signs/13.png",
+    "image": "assets/img/signs/13.svg",
     "choices":[
    
       "Road slippery when wet",
@@ -205,7 +205,7 @@
 
   {
    
-    "image": "assets/img/signs/14.png",
+    "image": "assets/img/signs/14.svg",
     "choices":[
    
       "Two way traffic ahead",
@@ -220,7 +220,7 @@
 
   {
    
-    "image": "assets/img/signs/15.png",
+    "image": "assets/img/signs/15.svg",
     "choices":[
    
       "Winding road",
@@ -235,7 +235,7 @@
 
   {
    
-    "image": "assets/img/signs/16.png",
+    "image": "assets/img/signs/16.svg",
     "choices":[
    
       "Hospital",
@@ -250,7 +250,7 @@
 
   {
    
-    "image": "assets/img/signs/17.png",
+    "image": "assets/img/signs/17.svg",
     "choices":[
    
       "Narrow bridge",
@@ -265,7 +265,7 @@
 
   {
    
-    "image": "assets/img/signs/18.png",
+    "image": "assets/img/signs/18.svg",
     "choices":[
    
       "Narrow bridge",
@@ -280,7 +280,7 @@
 
   {
    
-    "image": "assets/img/signs/19.png",
+    "image": "assets/img/signs/19.svg",
     "choices":[
    
       "Winding road ahead",
@@ -295,7 +295,7 @@
 
   {
    
-    "image": "assets/img/signs/20.png",
+    "image": "assets/img/signs/20.svg",
     "choices":[
    
       "School zone",
@@ -310,7 +310,7 @@
 
   {
    
-    "image":  "assets/img/signs/21.png",
+    "image":  "assets/img/signs/21.svg",
     "choices":[
    
       "Pass on the left or the right",
@@ -325,7 +325,7 @@
 
   {
    
-    "image":  "assets/img/signs/22.png",
+    "image":  "assets/img/signs/22.svg",
     "choices":[
    
       "Road work ahead",
@@ -339,7 +339,7 @@
   }, 
   {
    
-    "image":  "assets/img/signs/23.png",
+    "image":  "assets/img/signs/23.svg",
     "choices":[
    
       "Railway crossing ahead",
@@ -354,7 +354,7 @@
 
   {
    
-    "image":  "assets/img/signs/24.png",
+    "image":  "assets/img/signs/24.svg",
     "choices":[
    
       "Pass either side",
@@ -369,7 +369,7 @@
 
   {
    
-    "image":  "assets/img/signs/25.png",
+    "image":  "assets/img/signs/25.svg",
     "choices":[
    
       "Roundabout ahead",
@@ -384,7 +384,7 @@
 
   {
    
-    "image":  "assets/img/signs/26.png",
+    "image":  "assets/img/signs/26.svg",
     "choices":[
    
       "Merge to the center of the road",
@@ -399,7 +399,7 @@
 
   {
    
-    "image":  "assets/img/signs/27.png",
+    "image":  "assets/img/signs/27.svg",
     "choices":[
    
       "Slow down to the left",
@@ -414,7 +414,7 @@
 
   {
    
-    "image":  "assets/img/signs/28.png",
+    "image":  "assets/img/signs/28.svg",
     "choices":[
    
       "Road curves to the right",
@@ -429,7 +429,7 @@
 
   {
    
-    "image":  "assets/img/signs/29.png",
+    "image":  "assets/img/signs/29.svg",
     "choices":[
    
       "Pass either side",
@@ -444,7 +444,7 @@
 
   {
    
-    "image":  "assets/img/signs/30.png",
+    "image":  "assets/img/signs/30.svg",
     "choices":[
    
       "Slow down to the right",
@@ -459,7 +459,7 @@
 
   {
    
-    "image":  "assets/img/signs/31.png",
+    "image":  "assets/img/signs/31.svg",
     "choices":[
    
       "Road curves to the left",
@@ -474,7 +474,7 @@
 
   {
    
-    "image":  "assets/img/signs/32.png",
+    "image":  "assets/img/signs/32.svg",
     "choices":[
    
       "Pass either side",
@@ -489,7 +489,7 @@
 
   {
    
-    "image":  "assets/img/signs/33.png",
+    "image":  "assets/img/signs/33.svg",
     "choices":[
    
       "Two way traffic ends",
@@ -503,7 +503,7 @@
   }, 
   {
    
-    "image":  "assets/img/signs/34.png",
+    "image":  "assets/img/signs/34.svg",
     "choices":[
    
       "No pedestrians",
