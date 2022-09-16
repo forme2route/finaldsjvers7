@@ -105,7 +105,7 @@
    
       "Road bends to the left ends",
       "Stop",
-      "No left turn( Do not turn to the left at intersection)",
+      "No left turn (Do not turn to the left at intersection)",
       "Hidden corner ahead"
       
     ],
