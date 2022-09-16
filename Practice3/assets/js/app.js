@@ -8,7 +8,7 @@
  var quiz = [
   {
     "question": "",
-     "image": "assets/img/signs/1.png",
+     "image": "assets/img/signs/1.svg",
      "choices":[
     
        "Do not pass",
@@ -22,7 +22,7 @@
 
    {
     "question": "",
-    "image": "assets/img/signs/2.png",
+    "image": "assets/img/signs/2.svg",
     "choices":[
    
       "Slow down , if way is clear proceed",
@@ -36,7 +36,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/3.png",
+    "image": "assets/img/signs/3.svg",
     "choices":[
    
       "Road bends to the left",
@@ -50,7 +50,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/4.png",
+    "image": "assets/img/signs/4.svg",
     "choices":[
    
       "U turn ahead",
@@ -65,7 +65,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/5.png",
+    "image": "assets/img/signs/5.svg",
     "choices":[
    
       "One way traffic begins",
@@ -80,7 +80,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/6.png",
+    "image": "assets/img/signs/6.svg",
     "choices": [
 
       "Road is slippery when wet",
@@ -93,7 +93,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/7.png",
+    "image": "assets/img/signs/7.svg",
     "choices":[
    
       "Children at play",
@@ -108,7 +108,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/8.png",
+    "image": "assets/img/signs/8.svg",
     "choices":[
    
       "Left hand drive vehicles only",
@@ -123,7 +123,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/9.png",
+    "image": "assets/img/signs/9.svg",
     "choices":[
    
       "Major road ahead",
@@ -138,7 +138,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/10.png",
+    "image": "assets/img/signs/10.svg",
     "choices":[
    
       "Road work ahead",
@@ -153,7 +153,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/11.png",
+    "image": "assets/img/signs/11.svg",
     "choices":[
    
       "Pass left or right",
@@ -168,7 +168,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/12.png",
+    "image": "assets/img/signs/12.svg",
     "choices":[
    
       "Railway crossing ahead",
@@ -183,7 +183,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/13.png",
+    "image": "assets/img/signs/13.svg",
     "choices":[
    
       "Right hand drive vehicles only",
@@ -198,7 +198,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/14.png",
+    "image": "assets/img/signs/14.svg",
     "choices":[
    
       "4 way road ahead",
@@ -213,7 +213,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/15.png",
+    "image": "assets/img/signs/15.svg",
     "choices":[
    
       "Roundabout ahead",
@@ -228,7 +228,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/16.png",
+    "image": "assets/img/signs/16.svg",
     "choices":[
    
       "Railway crossing",
@@ -243,7 +243,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/17.png",
+    "image": "assets/img/signs/17.svg",
     "choices":[
    
       "One way ahead",
@@ -259,7 +259,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/18.png",
+    "image": "assets/img/signs/18.svg",
     "choices":[
    
       "Hidden intersection",
@@ -275,7 +275,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/19.png",
+    "image": "assets/img/signs/19.svg",
     "choices":[
    
       "Two way traffic begins",
@@ -290,7 +290,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/20.png",
+    "image": "assets/img/signs/20.svg",
     "choices":[
    
       "Road work ahead",
@@ -305,7 +305,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/21.png",
+    "image": "assets/img/signs/21.svg",
     "choices":[
    
       "Danger ahead",
@@ -320,7 +320,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/22.png",
+    "image": "assets/img/signs/22.svg",
     "choices":[
    
       "No passenger allowed",
@@ -335,7 +335,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/23.png",
+    "image": "assets/img/signs/23.svg",
     "choices":[
    
       "Winding road ahead",
@@ -351,7 +351,7 @@
   
   {
     "question": "",
-    "image": "assets/img/signs/24.png",
+    "image": "assets/img/signs/24.svg",
     "choices":[
    
       "Pedestrians allowed",
@@ -366,7 +366,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/25.png",
+    "image": "assets/img/signs/25.svg",
     "choices":[
    
       "Leave cycles here",
@@ -381,7 +381,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/26.png",
+    "image": "assets/img/signs/26.svg",
     "choices":[
    
       "Landslide ahead",
@@ -396,7 +396,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/27.png",
+    "image": "assets/img/signs/27.svg",
     "choices":[
    
       "Highway ahead",
@@ -411,7 +411,7 @@
 
   {
     "question": "What does a solid white line means?",
-    "image": "assets/img/signs/28.png",
+    "image": "assets/img/signs/28.svg",
     "choices":[
    
       "Overtake and pas with care",
@@ -426,7 +426,7 @@
 
   {
     "question": "What does a broken white line means?",
-    "image": "assets/img/signs/29.png",
+    "image": "assets/img/signs/29.svg",
     "choices":[
    
       "Driver may pass anytime",
@@ -441,7 +441,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/30.png",
+    "image": "assets/img/signs/30.svg",
     "choices":[
    
       "School zone",
@@ -456,7 +456,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/31.png",
+    "image": "assets/img/signs/31.svg",
     "choices":[
    
       "Truck route ahead",
@@ -470,7 +470,7 @@
   }, 
   {
     "question": "",
-    "image": "assets/img/signs/32.png",
+    "image": "assets/img/signs/32.svg",
     "choices":[
    
       "No right turn",
@@ -485,7 +485,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/33.png",
+    "image": "assets/img/signs/33.svg",
     "choices":[
    
       "No left turn",
@@ -500,7 +500,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/34.png",
+    "image": "assets/img/signs/34.svg",
     "choices":[
    
       "One way ,do not enter",
@@ -515,7 +515,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/35.png",
+    "image": "assets/img/signs/35.svg",
     "choices":[
    
       "Yield right of way",
@@ -530,7 +530,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/36.png",
+    "image": "assets/img/signs/36.svg",
     "choices":[
    
       "Stop",
@@ -545,7 +545,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/37.png",
+    "image": "assets/img/signs/37.svg",
     "choices":[
    
       "Narrow bridge ahead",
@@ -560,7 +560,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/38.png",
+    "image": "assets/img/signs/38.svg",
     "choices":[
    
       "Intersection ahead",
@@ -575,7 +575,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/39.png",
+    "image": "assets/img/signs/39.svg",
     "choices":[
    
       "Bicycle parking only",
@@ -590,7 +590,7 @@
 
   {
     "question": "",
-    "image": "assets/img/signs/40.png",
+    "image": "assets/img/signs/40.svg",
     "choices":[
    
       "Keep in the right lane",
