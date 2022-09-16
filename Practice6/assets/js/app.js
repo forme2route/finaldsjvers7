@@ -109,7 +109,7 @@
       "Hidden corner ahead"
       
     ],
-    "correct": "No left turn( Do not turn to the left at intersection)",
+    "correct": "No left turn (Do not turn to the left at intersection)",
 
   }, 
 
